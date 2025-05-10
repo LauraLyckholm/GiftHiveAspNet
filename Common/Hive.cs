@@ -1,12 +1,14 @@
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace GiftHive.Common;
 
 public class Hive
 {
-    [Key]
-    public int Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public ObjectId Id { get; set; }
     public required string HiveName { get; set; }
 
     [ForeignKey("User")]

@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>GiftHive</RootNamespace>
+    <UserSecretsId>fde343e2-a161-4fc5-b4da-673774915fe1</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

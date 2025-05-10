@@ -16,7 +16,6 @@ public class User
 
     private static string GenerateAccessToken()
     {
-        Console.WriteLine("Generating access token");
         return Guid.NewGuid().ToString();
     }
 }

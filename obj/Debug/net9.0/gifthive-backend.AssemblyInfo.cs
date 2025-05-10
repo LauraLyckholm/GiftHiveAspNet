@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gifthive-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1ff99363b0dd064c21e8c48b5a0c79457ee2375")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10e73049e6d315b761fc23d85c591b7c27ed5396")]
 [assembly: System.Reflection.AssemblyProductAttribute("gifthive-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gifthive-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

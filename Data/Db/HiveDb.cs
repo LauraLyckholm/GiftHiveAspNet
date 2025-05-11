@@ -1,4 +1,4 @@
-using GiftHive.Common;
+using GiftHive.Common.Models;
 using Microsoft.EntityFrameworkCore;
 
 class HiveDb(DbContextOptions<HiveDb> options) : DbContext(options)

@@ -1,8 +1,7 @@
-using System.ComponentModel.DataAnnotations;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace GiftHive.Common;
+namespace GiftHive.Common.Models;
 
 public class User
 {
